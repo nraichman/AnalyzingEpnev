@@ -1,0 +1,26 @@
+1.starts by clearing the working space.
+2. adds to the search path the path 'utilities'. Not sure this function call does anything
+3.set name to demoMovie.tif, sframe to 1, and num2read to 2000.
+4. if Y is not a double, convert to double. Not sure about the point of this functions,
+since Y should be a matrix containing binary info. Wouldn't changing the form affect the data?
+5.get the dimensions of Y.
+6. calculate the total number of pixels
+7.Set parameters for the algorithm
+8.preprocess Y (in depth analysis in its own doc)
+9.initialize components using initialize_components().%is this the identifying neurons part?
+10.display the centers of found components.
+11.(optional) manually refine components
+12.update spatial components
+13.update temporal components.
+14.classify components.
+15.(optional) run GUI for modifying component selection.
+16. merge found components.
+17.flag for displaying merging example.
+18.refine estimates excluding rejected components.
+19.restore AR values.
+20.plot
+    order components
+    extract DF/F values (optional)
+    contour plot for spatial footprint.
+21.display components
+22.make movie

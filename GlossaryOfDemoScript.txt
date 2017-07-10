@@ -1,0 +1,12 @@
+nam = 'demoMovie.tif'
+sframe = 1
+num2read = 2000
+Y = the hightXwidthXnumFrame array returned from bigread2
+d1 = hight of array Y
+d2 = width of array Y
+T = number of frames(depth) of array Y
+d = area of a frame.(represents th total number of pixels.)
+K = number of components to be found.
+tau = std of gaussian kernel (size of neuron)
+p = order of autoregressive systems (p = 0 no dynamics, p=1 just decay, p = 2, both rise and decay)
+merge_thr = merging threshold.
